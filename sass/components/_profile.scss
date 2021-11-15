@@ -1,0 +1,19 @@
+.profile {
+    width: 460px;
+    padding-left: 40px;
+    background: #f5f4fa;
+}
+.profile-contacts-item {
+    height: 25px;
+}
+.profile-contacts-item-icon {
+    width: 12px;
+    height: 16px;
+    margin-bottom: -3px;
+    margin-right: 10px;
+    fill: #757575;
+}
+.link:focus .profile-contacts-item-icon,
+.link:hover .profile-contacts-item-icon {
+    fill: #2196f3;
+}

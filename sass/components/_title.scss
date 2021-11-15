@@ -1,0 +1,23 @@
+.title {
+    display: flex;
+}
+.title-foto {
+    width: 460px;
+    background: #2f303a;
+}
+.title-name {
+    width: 740px;
+    padding-left: 20px;
+    background: #2f303a;
+    font-size: 24px;
+    color:#fff;
+}
+.title-foto--img {
+    width: 280px;
+    padding: 40px;
+    background:#2f303a ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
