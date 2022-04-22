@@ -211,12 +211,6 @@ h4 {
   }
 }
 
-@media screen and (min-width: 510px) and (max-width: 767px) {
-  .profile {
-    width: 450px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .profile {
     width: 450px;
@@ -334,6 +328,7 @@ main {
    * `article` contexts in Chrome, Firefox, and Safari.
    */
 h1 {
+  font-size: 1.5em;
   margin: 0.67em 0;
 }
 
