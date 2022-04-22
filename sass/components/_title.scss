@@ -1,25 +1,61 @@
 .title {
-    display: flex;
+    display: block;
 }
+@media (min-width: 510px) {
+    .title {
+        display: flex;
+    }
+  }
 .title-foto {
-    width: 460px;
     background: #2f303a;
 }
+@media (min-width: 510px) {
+    .title-foto {
+        width: 460px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .title-foto {
+        width: 360px;
+    }
+  }
 .title-name {
-    width: 740px;
     padding-left: 20px;
     padding-top: 25px;
     background: #2f303a;
-    font-size: 24px;
     color:#fff;
+    padding-bottom: 10px;
 }
+@media (min-width: 510px) {
+    .title-name {
+        padding: 30px;
+        font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .title-name {
+        padding: 45px;
+        font-size: 24px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .title-name {
+        font-size: 20px;
+        width: 840px;
+        padding-left: 230px;
+        padding-top: 95px;
+    }
+  }
 .title-foto--img {
-    width: 280px;
-    padding: 40px;
-    margin-left: 80px;
+    padding: 15px;
     background:#2f303a ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+@media (min-width: 510px) {
+    .title-foto--img {
+        padding: 25px;
+    }
+  }
